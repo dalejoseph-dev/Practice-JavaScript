@@ -11,7 +11,7 @@ function calculateCampaignMetrics(sent, opened, clicked) {
 
 // don't touch above this line
 
-calculateCampaignMetrics(1000, 800, 200);
+const {openRate, clickRate, conversionRate } = calculateCampaignMetrics(1000, 800, 200);
 
 // don't touch below this line
 
