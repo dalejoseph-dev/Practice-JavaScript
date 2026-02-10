@@ -16,7 +16,7 @@ console.log("Campaign Messages:", campaign.sentMessages);
 
 // don't touch above this line
 
-sendWelcome("Tyler", campaign.sendMessage);
+sendWelcome("Tyler", campaign.sendMessage.bind(campaign));
 
 // don't touch below this line
 
