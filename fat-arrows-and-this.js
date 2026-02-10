@@ -2,8 +2,8 @@ const campaign = {
   name: "Welcome Campaign",
   maxMessages: 100,
   sentMessages: 30,
-  sendMessage: () => {
-    this.sentMessages++;
+  sendMessage() {
+    return `${this.sentMessages++} ${this.maxMessages}`;
   },
 };
 
