@@ -1,4 +1,4 @@
-function isSpamMessage(message) {
+const isSpamMessage = (message) => {
   if (message.toLowerCase().includes("offer")) {
     return true;
   }
@@ -6,7 +6,7 @@ function isSpamMessage(message) {
     return true;
   }
   return false;
-}
+};
 
 // don't touch below this line
 
