@@ -12,10 +12,16 @@ class Sender {
 
 class SMSSender extends Sender {
   // ?
+  formatMessage(message) {
+    return super.formatMessage(message) + " [SMS]";
+  }
 }
 
 class EmailSender extends Sender {
   // ?
+  formatMessage(message) {
+    return super.formatMessage(message) + " [Email]";
+  }
 }
 
 // don't touch below this line
