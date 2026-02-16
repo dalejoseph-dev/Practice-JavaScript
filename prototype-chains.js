@@ -6,6 +6,10 @@ const user = {
 const adminUser = Object.create(user);
 adminUser.type = "admin";
 
+function isAdmin(obj) {
+  return Object.getPrototypeOf(obj) === adminUser;
+}
+
 // ?
 
 // don't touch below this line
