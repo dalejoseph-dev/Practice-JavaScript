@@ -1,5 +1,9 @@
-// ?
-
+// Managing the messages history using an array
+const sentMessages = [];
+sentMessages.push("Welcome to Textio!");
+logArray(sentMessages);
+sentMessages.push("Reminder: Your payment is due soon.");
+logArray(sentMessages)
 // don't touch below this line
 
 function logArray(arr) {
