@@ -1,5 +1,10 @@
 const printMatchingProperties = (messageLog, searchTerm) => {
   // ?
+  for (const key in messageLog) {
+    if (key.startsWith(searchTerm)) {
+    console.log(`Found: ${key} -> ${messageLog[key]}`);
+    }
+  }
 };
 
 // don't touch below this line
