@@ -4,7 +4,9 @@ function cleanup() {
   } catch (err) {
     throw new Error("Error in catch block");
   }
-  console.log("Cleanup complete");
+  finally {
+    console.log("Cleanup complete");
+  }
 }
 
 // don't touch below this line
