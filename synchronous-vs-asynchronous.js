@@ -1,7 +1,7 @@
-const textioSetupCompleteWait = 0;
-const errorHandlingWait = 0;
-const messageRoutingWait = 0;
-const smsProvidersWait = 0;
+const textioSetupCompleteWait = 2000;
+const errorHandlingWait = 1500;
+const messageRoutingWait = 1000;
+const smsProvidersWait = 500;
 
 // don't touch below this line
 
