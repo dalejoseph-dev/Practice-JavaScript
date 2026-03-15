@@ -1,4 +1,6 @@
-// ?
+// It teaches how I can use await to the code.
+const promise = updateMessageStatus("M123", "Sending", true);
+const message = await promise;
 
 // don't touch below this line
 
