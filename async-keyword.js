@@ -1,4 +1,4 @@
-function getMessageHash(sender, content) {
+async function getMessageHash(sender, content) {
   const hash = await sha256Hex(content);
   return `Sender (${sender}): ${hash}`;
 }
